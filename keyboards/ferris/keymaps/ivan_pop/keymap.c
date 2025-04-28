@@ -68,8 +68,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [_WMCL] = LAYOUT(
                    _, _, _, _, _, _, _, _, _, _,
                    LGUI_T(KC_4), LALT_T(KC_3), LSFT_T(KC_2), LCTL_T(KC_1), KC_5, _, _, _, _, _,
-                   _, _, _, _, _, _, _, _, _, _,
-                   _, _ ,_, _
+                   KC_0, KC_7, KC_8, KC_9, KC_6,        _, _, _, _, _,
+                   _, _,    _, _
                    ),
   [_NUMS] = LAYOUT(
                    KC_ESC, KC_GAME,            KC_DOWN,      KC_UP, KC_BTN1,                              KC_PMNS, KC_7,    KC_8, KC_9, KC_EQL,
